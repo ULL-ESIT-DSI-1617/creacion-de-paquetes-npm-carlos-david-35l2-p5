@@ -1,6 +1,6 @@
 'use strict'
 
-let Figura = require('../lib/shape.js')
+let Shapes = require('../lib/shape.js')
 let should = require('should')
 
 describe("Shape",function()  {

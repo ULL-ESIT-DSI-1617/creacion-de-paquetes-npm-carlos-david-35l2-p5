@@ -7,4 +7,4 @@ gulp.task('debug', shell.task('node --inspect --debug-brk index.js'));
 
 gulp.task('run', shell.task('node index.js'));
 
-//gulp.task("test", shell.task("./node_modules/mocha/bin/mocha --require should"));
+gulp.task("test", shell.task("./node_modules/mocha/bin/mocha --require should"));

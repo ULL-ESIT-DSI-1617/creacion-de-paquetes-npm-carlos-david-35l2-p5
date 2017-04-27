@@ -1,5 +1,5 @@
 {
-  "name": "@ull-carlos-david/ull-shape",
+  "name": "ull-shape",
   "version": "1.0.0",
   "description": "shape",
   "main": ".lib/shape.js",

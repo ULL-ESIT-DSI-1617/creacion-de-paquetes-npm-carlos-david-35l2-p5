@@ -1,1 +1,1 @@
-module.exports = require('./lib/shape.js')
+module.exports = require('./lib/square.js');

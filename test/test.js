@@ -1,12 +1,11 @@
 'use strict'
 
-let Figura = require('../lib/shape.js')
-let should = require('should')
+let Square = require("../lib/square.js");
 
-describe("Shape",function()  {
-  it("must not compute the shape area correctly", function() {
-    let x = new Shapes('Triangulo', {width: 150, heigth: 150});
-    let a = x.getArea();
-    should(a).be.null;
+describe("getArea Square", function() {
+  it("must compute the square area correctly", function() {
+    let a = new Square({ width: 150 });
+    let result = a.getArea();
+     result.should.equal(22500);
   })
 });
